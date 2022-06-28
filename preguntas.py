@@ -150,7 +150,7 @@ def pregunta_05():
     estimator = pregunta_04()
 
     # Entrene el estimador
-    estimator.fit(x_train, y_train)  #
+    estimator.fit(x_train, y_train) 
 
     # Pronostique para las muestras de entrenamiento y validacion
     y_train_pred = estimator.predict(x_train)  
